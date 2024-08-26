@@ -1,0 +1,40 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: wheat;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Color box styling */
+#color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+/* Button styling */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#change-color-btn:hover {
+    background-color: blueviolet;
+}
